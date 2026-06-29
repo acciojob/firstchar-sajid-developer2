@@ -1,11 +1,5 @@
 function firstChar(text) {
-  let i = 0;
-
-  while (i < text.length && text[i] === " ") {
-    i++;
-  }
-
-  return i < text.length ? text[i] : "";
+  return text.trim().charAt(0);
 }
 
 // Do not change the code below
